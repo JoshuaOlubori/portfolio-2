@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import dennis from "../../public/dennis.png";
 import starlight from "../../public/starlight.png";
 import ayang from "../../public/ayang.png";
+import myxellia from "../../public/myxellia.png";
 
 
 interface Project {
@@ -39,13 +40,13 @@ const projects: Project[] = [
     preview: "https://dennis-okwechime.onrender.com",
     status: "A modern portfolio website using brutalist UI aesthetics",
   },
-  // {
-  //   title: "Tron Legacy Web",
-  //   image: tron as ImageMetadata,
-  //   link: "https://github.com/Gothsec/Tron-Legacy-web",
-  //   preview: "https://tron-legacy-web.vercel.app/",
-  //   status: "Template (not official)",
-  // },
+  {
+    title: "Myxellia Dashboard",
+    image: myxellia as ImageMetadata,
+    link: "https://github.com/JoshuaOlubori/myxellia",
+    preview: "https://myxellia-dashboard-iota.vercel.app/",
+    status: "Dashboard page of a house listing start up, converted accurately from Figma design.",
+   },
 ];
 ---
 
