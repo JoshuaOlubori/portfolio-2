@@ -49,11 +49,11 @@ const projects: Project[] = [
     status: "Dashboard page of a house listing start up, converted accurately from Figma design (view on Desktop only).",
    },
      {
-    title: "Data science blog",
+    title: "My data science blog",
     image: dsblog as ImageMetadata,
     link: "https://github.com/JoshuaOlubori/ds-blog",
     preview: "https://data-science-blog.vercel.app/",
-    status: "My blog showcasing my data science tutorials.",
+    status: "Blog showcasing my data science tutorials.",
    },
 ];
 ---
@@ -72,6 +72,7 @@ const projects: Project[] = [
           <div class="group">
             <a
               href={project.preview}
+              title="View live demo"
               target="_blank"
               rel="noopener noreferrer"
               class="block"
@@ -94,6 +95,7 @@ const projects: Project[] = [
                   <a
                     target="_blank"
                     href={project.link}
+                    title="View source code on GitHub"
                     aria-label="GitHub"
                     class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
                   >
@@ -109,6 +111,7 @@ const projects: Project[] = [
                   <a
                     target="_blank"
                     href={project.preview}
+                    title="View live demo"
                     aria-label="Preview"
                     class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
                   >
